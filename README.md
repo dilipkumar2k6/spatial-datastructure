@@ -1,5 +1,5 @@
 # 1D
-# Binary Search Tree vs HashMap
+## Binary Search Tree vs HashMap
 Following are two general approach
 - Hash Table: Requires that keys can be hashed
 - Search Tree: Requires that keys can be compared
@@ -30,27 +30,7 @@ Following are typical questions asked
 - find points for given range
 
 # 2D
-- Multi dimensional hash map
-```
-my %company = ('Sales' =>    { 
-                                'Brown' => 'Manager', 
-                                'Smith' => 'Salesman', 
-                                'Albert' => 'Salesman',  
-                            },  
-            'Marketing' =>  { 
-                                'Penfold' => 'Designer', 
-                                'Evans' => 'Tea-person', 
-                                'Jurgens' => 'Manager',  
-                            }, 
-            'Production' => { 
-                                'Cotton' => 'Paste-up', 
-                                'Ridgeway' => 'Manager', 
-                                'Web' => 'Developer',  
-                            }, 
-            ); 
-```
-## Motivation
-### Multidimensional range queries
+## Multidimensional range queries
 - Multidimensional range queries are the defining feature of a spatial application.
 - Because a coordinate gives a position in space, it is called a spatial attribute.
 - To implement spatial applications efficiently requires the use of a spatial data structure. 
@@ -58,13 +38,13 @@ my %company = ('Sales' =>    {
 
 - 2D range search: How many objects are in the highlighted rectangle?
 ![](assets/2d-search.png)
-### Nearest
+## Nearest
 - What is closest object to a specific point?
 - Can be generalize to k nearest
 - Nearest neighbors: What is the closest object to the space horse?
 ![](assets/2d-nearest-to-horse.png)
 
-## solution?
+## Solution?
 This can be solve using following
 - HashTable approach
 - BST approach
@@ -136,6 +116,7 @@ https://www.youtube.com/watch?v=vGRyb1fK-bg
     - NW
     - SE
     - SW
+    
 Demo #1:
 ![](assets/quard-tree-demo1.png)
 
