@@ -1,3 +1,6 @@
+# Write code
+https://leetcode.com/problems/construct-quad-tree/
+
 # 1D
 ## Binary Search Tree vs HashMap
 Following are two general approach
